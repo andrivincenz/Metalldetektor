@@ -47,7 +47,6 @@ public class MainActivity extends Activity implements SensorEventListener {
 		if (mMagnetField!=null){
 		mSensorManager.registerListener(this, mMagnetField, SensorManager.SENSOR_DELAY_NORMAL);
 		}
-		
 	}
 	
 	@Override
